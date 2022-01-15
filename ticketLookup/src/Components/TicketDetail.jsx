@@ -4,20 +4,18 @@ export default function TicketDetai() {
   return (
     <div className="relative mt-10 px-6 pt-10 pb-8 bg-white shadow-xl ring-1 ring-gray-900/5 sm:max-w-lg sm:mx-auto sm:rounded-lg sm:px-10">
       <div className="max-w-md mx-auto">
-        <div className="h-6 flex">
+        <div className="h-6 flex items-center">
           <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 fill-blue-500"
+            className="w-8 h-8 flex fill-sky-100 stroke-blue-600 stroke-2"
             viewBox="0 0 24 24"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              fill="none"
-              d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"
+              d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 0 0-2 2v3a2 2 0 1 1 0 4v3a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3a2 2 0 1 1 0-4V7a2 2 0 0 0-2-2H5z"
             />
-          </svg>{" "}
+          </svg>
           <p className="px-2 font-mono font-semibold"># 0017897678542</p>
         </div>
         <div className="divide-y divide-gray-300/50">

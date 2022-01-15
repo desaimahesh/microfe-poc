@@ -5,8 +5,8 @@ import TicketLookup from "./Components/TicketLookup";
 import "./index.scss";
 
 const App = () => (
-  <div >
-   <TicketLookup />
+  <div>
+    <TicketLookup />
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));

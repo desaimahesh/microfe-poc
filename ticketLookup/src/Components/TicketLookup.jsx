@@ -8,7 +8,7 @@ export default function TicketLookup() {
       <div className="relative py-3 w-max  mx-auto text-center">
         <div className="mt-4 bg-white shadow-md rounded-lg text-left">
           <div className="h-auto py-1  text-white bg-blue-600 rounded-t-md text-center">
-            <span className="text-2xl font-semibold">Ticket Detail </span>
+            <span className="text-lg font-mono font-semibold">Ticket Detail </span>
           </div>
           <div className="px-8 py-6">
             <TicketSearch />
