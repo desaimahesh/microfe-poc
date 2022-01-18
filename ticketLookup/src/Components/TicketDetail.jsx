@@ -9,6 +9,9 @@ export default function TicketDetai() {
             className="w-8 h-8 flex fill-sky-100 stroke-blue-600 stroke-2"
             viewBox="0 0 24 24"
           >
+            <title className="border-blue-500 ring-1 text-center text-base text-gray-400">
+              Ticket Detail
+            </title>
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -19,83 +22,58 @@ export default function TicketDetai() {
           <p className="px-2 font-mono font-semibold"># 0017897678542</p>
         </div>
         <div className="divide-y divide-gray-300/50">
-          <div className="py-8 text-base leading-7 space-y-6 text-gray-600">
+          <div className="py-2 text-base leading-7 space-y-6 text-gray-600">
             <p>
-              An advanced online playground for Tailwind CSS, including support
-              for things like:
+              Ticket booked on{" "}
+              <code className="text-sm font-bold text-gray-900">
+                01/01/2020
+              </code>{" "}
+              having a total cost of{" "}
+              <code className="text-sm font-bold text-gray-900">$100.00</code>{" "}
+              and status of{" "}
+              <code className="text-sm font-bold text-gray-900">pending</code>.
             </p>
-            <ul className="space-y-4">
-              <li className="flex items-center">
-                <svg
-                  className="w-6 h-6 flex-none fill-sky-100 stroke-sky-500 stroke-2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <circle cx="12" cy="12" r="11" />
-                  <path
-                    d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9"
-                    fill="none"
-                  />
-                </svg>
-                <p className="ml-4">
-                  Customizing your
-                  <code className="text-sm font-bold text-gray-900">
-                    tailwind.config.js
-                  </code>{" "}
-                  file
-                </p>
-              </li>
-              <li className="flex items-center">
-                <svg
-                  className="w-6 h-6 flex-none fill-sky-100 stroke-sky-500 stroke-2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <circle cx="12" cy="12" r="11" />
-                  <path
-                    d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9"
-                    fill="none"
-                  />
-                </svg>
-                <p className="ml-4">
-                  Extracting classes with
-                  <code className="text-sm font-bold text-gray-900">
-                    @apply
-                  </code>
-                </p>
-              </li>
-              <li className="flex items-center">
-                <svg
-                  className="w-6 h-6 flex-none fill-sky-100 stroke-sky-500 stroke-2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <circle cx="12" cy="12" r="11" />
-                  <path
-                    d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9"
-                    fill="none"
-                  />
-                </svg>
-                <p className="ml-4">Code completion with instant preview</p>
-              </li>
-            </ul>
-            <p>
-              Perfect for learning how the framework works, prototyping a new
-              idea, or creating a demo to share online.
-            </p>
-          </div>
-          <div className="pt-8 text-base leading-7 font-semibold">
-            <p className="text-gray-900">Want to dig deeper into Tailwind?</p>
-            <p>
-              <a
-                href="https://tailwindcss.com/docs"
-                className="text-sky-500 hover:text-sky-600"
-              >
-                Read the docs &rarr;
-              </a>
-            </p>
+            <div className="grid grid-cols-4 gap-2">
+              <label className="text-sm font-bold text-gray-900">
+                First Name:
+              </label>
+              <input
+                className="border-none font-mono font-semibold"
+                value="Mahesh"
+              ></input>
+              <label className="text-sm font-bold text-gray-900">
+                Last Name:
+              </label>
+              <input
+                className="border-none font-mono font-semibold"
+                value="Desai"
+              ></input>
+            </div>
+            <div className="ring-blue-500 ring-2 rounded-sm shadow-sm px-2">
+              <input
+                className="border-none font-mono font-semibold"
+                value="Address line 1"
+              ></input>
+              <input
+                className="border-none font-mono font-semibold"
+                value="Address line 2"
+              ></input>
+              <input
+                className="border-none font-mono font-semibold"
+                value="Irving"
+              ></input>
+              <input
+                className="border-none font-mono font-semibold"
+                value="TX"
+              ></input>
+              <input
+                className="border-none font-mono font-semibold"
+                value="75063"
+              ></input>
+            </div>
           </div>
         </div>
+        <p>Other TicketDetails can go here </p>
       </div>
     </div>
   );
