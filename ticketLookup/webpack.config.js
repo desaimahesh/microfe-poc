@@ -44,7 +44,9 @@ module.exports = {
       name: "ticketLookup",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./TicketLookup": "./src/Components/TicketLookup",
+      },
       shared: {
         ...deps,
         react: {

@@ -46,6 +46,7 @@ module.exports = {
       remotes: {
         "store": "store@http://localhost:3005/remoteEntry.js",
         "login": "login@http://localhost:3002/remoteEntry.js",
+        "ticketLookup": "ticketLookup@http://localhost:3007/remoteEntry.js",
       },
       exposes: {},
       shared: {
