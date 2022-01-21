@@ -46,6 +46,8 @@ module.exports = {
       remotes: {},
       exposes: {
         "./TicketLookup": "./src/Components/TicketLookup",
+        "./TicketDetail": "./src/Components/TicketDetail",
+        "./TicketSearch": "./src/Components/TicketSearch",
       },
       shared: {
         ...deps,
